@@ -1,0 +1,18 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableTitle {
+    background-color: #2c2c2c; 
+    color: white;
+}
+
+.item {
+    border: 2px solid black; 
+    padding: 10px;
+}
+
+.row:nth-child(even) { 
+    background-color: #f2f2f2; /* Світло-сірий фон для парних рядків */
+}
