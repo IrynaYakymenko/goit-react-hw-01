@@ -10,6 +10,7 @@ export default function App() {
   return (
     <>
       <Profile
+        avatar={userData.avatar}
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
